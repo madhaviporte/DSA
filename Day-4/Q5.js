@@ -10,6 +10,5 @@ else if(n%400==0){
     
 }
 else{
-    console.log("no leap year");
-    
+    console.log("no leap year");   
 }
