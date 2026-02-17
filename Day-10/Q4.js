@@ -1,5 +1,5 @@
 //right angle traingle
-
+//right angle traingle
 let prompt = require('prompt-sync')()
 let n = Number(prompt("Enter a star"))
 
