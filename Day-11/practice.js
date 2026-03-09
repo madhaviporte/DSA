@@ -20,6 +20,11 @@
 // arr[3] = 40
 // console.log(arr);
 
+//let arr = [100,"hello",true,{}]
+// console.log();
+//multiple value store kr skte hai
+
+
 
 // accept value from user
 
