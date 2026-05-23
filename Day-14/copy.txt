@@ -1,4 +1,3 @@
 String: a gruop of 
-slice: minus me value de skte hai last number ke liye 
-
+slice: minus me value de skte hai last number ke liye
 ......
