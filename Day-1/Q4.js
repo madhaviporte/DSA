@@ -1,4 +1,4 @@
 // Accept and print the answer
 let prompt =require('prompt-sync')()
-let age = prompt("Enter your age")
-console.log(`Age ${age}`);
+let age = Number(prompt("Enter your age"))
+console.log(`Age ${typeof age}`);

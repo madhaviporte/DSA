@@ -6,6 +6,7 @@
 //cont2 = temp  :cont2=100
 
 //method 1
+// with Extra variable 
 let a = 10
 let b = 20
 
@@ -16,6 +17,7 @@ console.log(a);
 console.log(b);
 
 //method 2
+//without extra variable
 
 // a = 10
 // b= 20
@@ -26,13 +28,24 @@ console.log(b);
 
 let a1 = 10
 let b1= 20
-
 console.log(a1,b1);
+
 a1 = a1 + b1
 b1 = a1 - b1
 a1 = a1 - b1
-
 console.log(a1,b1);
+
+//method-3
+//swapping with destructuing array
+
+let a = 10
+let b = 20
+console.log(a1,b1);
+
+[a,b] = [b,a]
+console.log(a,b);
+
+
 
 
 
