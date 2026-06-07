@@ -38,6 +38,8 @@ console.log(a1,b1);
 //method-3
 //swapping with destructuing array
 
+
+
 let a = 10
 let b = 20
 console.log(a1,b1);
