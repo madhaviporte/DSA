@@ -1,19 +1,16 @@
-//strongest number 
+//print stars(pattern)
 let prompt = require('prompt-sync')()
-let n = Number(prompt("Enter a Number"))
-let copy = n;
-let ans =0
+let n = Number(prompt("Enter a number"))
 
-while(n>0){
-    let dig = n%10
-    let fact = 1
-    for(let i=1; i<=dig; i++) {
-        fact = fact *i
+for (let i=1; i<=n; i++){
+    for(let j=1; j<=n; j++){
+        process.stdout.write("* ");
+    }
+    console.log();   
 }
-ans = ans + fact;
-n = Math.floor(n/10)
-}
-if(copy==ans)console.log("Strong number");
 
-else console.log("not Strong number");
-
+/**
+ * * * * * * 
+ * * * * * *
+ * * * * * *
+ */

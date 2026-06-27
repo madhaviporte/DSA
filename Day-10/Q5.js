@@ -8,7 +8,13 @@ for(let i=0; i<=n; i++){
         process.stdout.write("* ")
     }
     console.log();
-    
-
     // ites give inverted angle triangle
 }
+
+/**
+ * * * * * *
+ * * * * *
+ * * * * 
+ * * *
+ * *
+ */
